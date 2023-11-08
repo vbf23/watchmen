@@ -13,6 +13,8 @@ pip3 install Flask
 # Install HTTP Server (Apache)
 sudo apt install apache2 -y
 
+sudo apt install git -y
+
 # Start and enable Apache
 sudo systemctl start apache2
 sudo systemctl enable apache2
