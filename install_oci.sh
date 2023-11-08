@@ -14,6 +14,8 @@ pip3 install Flask
 # Install HTTP Server (Apache)
 sudo yum install httpd -y
 
+sudo yum install git -y
+
 # Start and enable Apache
 sudo systemctl start httpd
 sudo systemctl enable httpd
